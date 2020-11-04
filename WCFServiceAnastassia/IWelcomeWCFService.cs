@@ -11,7 +11,7 @@ namespace WCFServiceAnastassia
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IWelcomeWCFService" in both code and config file together.
     [ServiceContract]
     public interface IWelcomeWCFService
-    {
+    { 
         [OperationContract]
         void DoWork();
         [OperationContract]
